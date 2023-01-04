@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #414a4c;
+    font-family: sans-serif, Helvetica;
+    font-weight: 100;
+    font-size: 16px;
+    height: 100%;
+}
+
+#main-doc {
+    display: flex;
+    width: 100%;
+}
+
+#nav-bar {
+    position: fixed;
+    float: left;
+    bottom:0;
+    width: 225px;
+    height: 100%;
+    background: #fff;
+    border-right: 1px solid #414a4c;
+}
+
+.nav-link {
+    padding: 5px 15px;  
+    border-bottom: 1px solid #414a4c;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.main-section {
+    position: relative;
+    min-width: 300px;
+    max-width: 100%;
+    padding: 15px;
+    margin-left: 225px;
+}
+
+header{
+    font-size: 30px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+h2.dynamic {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+hr {
+    margin-bottom: 15px;
+}
+
+li {
+    margin: 15px 30px;
+    list-style: disc;
+}
+
+li.ref {
+    margin: 5px 30px;
+    padding: 0px 5px 0px 5px;
+    list-style: decimal;
+
+}
+
+ol {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #414a4c;
+    cursor: pointer;
+}
+
+a:hover {
+    text-shadow: 1px 1px #a9a9a9;
+}
+
+code {
+    font-size: 15px;
+}
+
+tr, th, td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 3px 5px;
+}
+
+table {
+    width:550px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin: 10px 15px;
+}
+
+.indent {
+    margin-left: 15px;
+    margin-top:10px;
+}
+
+.indent2 {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.example-syn {
+    font-style: italic;
+    color: #408080;
+}
+
+br.syn {
+    line-height: 2px;
+}
+
+.var {
+    color: #008000;
+    font-weight: 550;
+}
+
+.var-red {
+    color: #BA2121;
+}
+
+.examples {
+    font-family: monospace, monospace;
+    font-weight: 200;
+    font-size: 15px;
+    margin: 2px 0 2px 15px;
+}
+
+#referenceList {
+    padding: 0;    
+}
+
+
